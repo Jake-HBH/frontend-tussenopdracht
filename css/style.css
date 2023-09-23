@@ -61,14 +61,11 @@ nav a {
 /* Logo */
 .logo {
     width: 100px;
-    background-color: #494949;
-    border-radius: 3px;
     margin: 20px;
 }
 
 header {
     border-radius: 5px;
-    background-color: #fffdf6;
     padding: 50px;
     line-height: 10px;
 }
@@ -189,9 +186,14 @@ a.button-default:hover {
 
 /* Gerelateerde producten positie */
 .gerel {
+    background-color:#ece8d9;
+    border: 1px solid #494949;
+    border-radius: 2px;
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding-top: 20px;
+    margin: 20px;
 }
 
 /* Knoppen */
@@ -213,13 +215,13 @@ a.button-default:hover {
     color: #faf6e9;
     background-color: #494949;
     text-decoration: underline;
-    border-radius: 2px;
+    border-radius: 0px;
 }
 
 /* Foto aanpassingen */
 .gerel img {
-    border: 2x solid #494949;
-    border-radius: 10px;
+    border: 0px solid #494949;
+    border-radius: 5px;
     padding: 1px;
     background-color: #494949;
     width: 200px;
@@ -238,7 +240,7 @@ a.button-default:hover {
 
 
 /* Footer */
-#onder {
+#onder{
     display: flex;
     flex-direction: row;
     justify-content: center;
